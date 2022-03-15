@@ -1,4 +1,4 @@
-#include "putchar.h"
+#include "main.h"
 /**
  * main - Entry point
  * Description: Program to print putchar and move to next line
@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	char text[9] = "Holberton";
+	char c[9] = "_putchar";
 	int i;
 
 	for (i = 0; i < 9; i++)
 	{
-		_putchar(text[i]);
+		_putchar(c[i]);
 	}
 	
 	_putchar('\n');

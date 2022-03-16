@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	int print_sign(int n);
+	int _abs(int n);
 	return (0);
 }

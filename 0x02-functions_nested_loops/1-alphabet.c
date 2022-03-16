@@ -1,10 +1,11 @@
 #include "main.h"
 /**
- * main - print alphabets
  * print_alphabet - prints alphabet in lowercase
- * Description: Uses main file
+ *
+ * Description: Uses the main header file, that brings in the _putchar
  * Return: void.
  */
+
 void print_alphabet(void)
 {
 	char ch;

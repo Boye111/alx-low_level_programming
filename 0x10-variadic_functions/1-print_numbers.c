@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * print_number - print
+ * print_numbers - print
  * @separator: space
  * @n: integer
  * Return: ...

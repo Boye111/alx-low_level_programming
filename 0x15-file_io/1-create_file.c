@@ -2,7 +2,7 @@
 /**
  * create_file - function to create file
  * @filename: file to be created
- * @tect_content: content of file
+ * @text_content: content of file
  * Return: 1 if success, -1 if failure
  */
 int create_file(const char *filename, char *text_content)

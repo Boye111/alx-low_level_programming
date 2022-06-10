@@ -8,7 +8,7 @@
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint *current = head;
+	dlistint_t *current = head;
 	unsigned int iter_times = 0;
 
 	if (head)

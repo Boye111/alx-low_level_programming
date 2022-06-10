@@ -1,6 +1,6 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
-#include <stdlib.h>
 /**
  * add_dnodeint - function to add node
  * @head: head of the list

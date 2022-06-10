@@ -6,7 +6,7 @@
  * @h: double linked list to print
  * Return: number of nodes in the list
  */
-size_t print_dlistint(const dlistint_t *h);
+size_t print_dlistint(const dlistint_t *h)
 {
 	int length = 0;
 

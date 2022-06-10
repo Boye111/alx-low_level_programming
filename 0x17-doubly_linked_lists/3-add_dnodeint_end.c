@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
 /**
@@ -12,7 +11,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	dlistint_t *current = NULL, *new_node = NULL;
 
 	new_node = malloc(sizeof(dlistint_t));
-	if (new_node = NULL)
+	if (new_node == NULL)
 		return (NULL);
 	new_node->n = n;
 	if (*head)

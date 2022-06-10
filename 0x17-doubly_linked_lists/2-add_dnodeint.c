@@ -7,7 +7,7 @@
  * @n: number to place node
  * Return: new list with node added at the beginning
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node = NULL;
 

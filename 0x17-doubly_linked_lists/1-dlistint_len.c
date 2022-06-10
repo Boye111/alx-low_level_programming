@@ -5,7 +5,7 @@
  * @h: list whose elements are to be returned
  * Return: ....
  */
-size_t dlistint_len(const dlistint_t *h);
+size_t dlistint_len(const dlistint_t *h)
 {
 	int length = 0;
 

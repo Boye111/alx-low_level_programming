@@ -6,7 +6,7 @@
  * @head: head of node
  * Return: ...
  */
-void free_dlistint(dlistint_t *head);
+void free_dlistint(dlistint_t *head)
 {
 	dlistint_t *current = head, *next = NULL;
 

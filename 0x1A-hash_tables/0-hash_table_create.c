@@ -6,7 +6,7 @@
  * @size: Size of the array
  * Return: ...
  */
-hash_table_t *hash_table_create(unsigned long int size);
+hash_table_t *hash_table_create(unsigned long int size)
 {
 	unsigned long int i = 0;
 	hash_table_t *new_has_t = NULL;

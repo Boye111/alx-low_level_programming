@@ -10,18 +10,18 @@ hash_table_t *hash_table_create(unsigned long int size);
 {
 	unsigned long int i = 0;
 	hash_table_t *new_has_t = NULL;
-	hash_node_t **array = NULL;
+	hash_node_t **arr = NULL;
 
 	new_has_t = malloc(sizeof(hash_table_t));
-	if (htable == NULL)
+	if (new_has_t == NULL)
 		return (NULL);
-	array = malloc(sizeof(hash_node_t *) * size);
-	if (array == NULL)
+	arr = malloc(sizeof(hash_node_t *) * size);
+	if (arr == NULL)
 		return (NULL);
 	for (; i < size; ++i)
-		array[i] = NULL;
+		arr[i] = NULL;
 	new_has_t->size = size;
-	new_has_t->array = array;
+	new_has_t->array = arr;
 
 	return (new_has_t);
 }

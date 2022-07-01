@@ -6,7 +6,7 @@
  * @ht: hash table to print
  * Return: ...
  */
-void hash_table_print(const hash_table_t *ht);
+void hash_table_print(const hash_table_t *ht)
 {
 	hash_node_t *node = NULL;
 	unsigned long int i = 0;

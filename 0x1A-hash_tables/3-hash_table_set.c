@@ -9,7 +9,7 @@
  * @value: value assoiciated with key
  * Return: ...
  */
-int hash_table_set(hash_table_t *ht, const char *key, const char *value);
+int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int idx = 0;
 	hash_node_t *elem = NULL, *new_node = NULL;
